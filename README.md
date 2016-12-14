@@ -1,7 +1,6 @@
-# RaftGo
-A project for learning Golang.
+# Raft
 
-Forked from [MIT's 6.824 (Distributed System)](https://pdos.csail.mit.edu/6.824/), original code: git://g.csail.mit.edu/6.824-golabs-2016
+[MIT's 6.824 (Distributed System)](https://pdos.csail.mit.edu/6.824/), original code: git://g.csail.mit.edu/6.824-golabs-2016
 
 ## Directory Tree
 * src/kvraft: a Key-Value store based on Raft
@@ -19,8 +18,8 @@ Forked from [MIT's 6.824 (Distributed System)](https://pdos.csail.mit.edu/6.824/
 		* resilient to unreliable network such as network partition, message reorder and message lost
 	* note1: cluster membership must be static
 	* ~~note2: test_test.go is the test file of this project. Please only run part of these test functions at one time, otherwise, it may throw the error of running too many go routines.~~ (Problem of race condition, solved)
-		
-	
+
+
 * src/mapreduce: MapReduce framework, used for getting familiar with the source and Go.
 	* implement sequential and distributed MapReduce framework
 	* handle worker failure
