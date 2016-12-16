@@ -6,7 +6,7 @@
 * src/kvraft: a Key-Value store based on Raft
 	* apply the Raft to state machines to implement a KV store
 	* **NEW FEATURE!:** support log snapshot and compaction
-		* based on the algorithm described in [**Log Compaction in Raft**](https://ramcloud.atlassian.net/wiki/download/attachments/6586373/compaction.pdf?version=1&modificationDate=1367123151531&api=v2)'s section 5.3 (but I think my implementation is very naive and simple, it's not very efficient)
+		* based on the algorithm described in [**Log Compaction in Raft**](https://ramcloud.atlassian.net/wiki/download/attachments/6586373/compaction.pdf?version=1&modificationDate=1367123151531&api=v2)'s section 5.3 (but my implementation is very naive and simple, it's not very efficient)
 	* other reference: [blahgeek's implementation](https://github.com/blahgeek/6.824-golabs/)
 
 * src/raft: implementation of [**The Raft Consensus Algorithm**](http://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14)

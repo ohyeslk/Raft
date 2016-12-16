@@ -11,6 +11,7 @@ import "fmt"
 type Clerk struct {
 	servers [2]string // primary port, backup port
 	// Your definitions here.
+	
 }
 
 
