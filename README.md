@@ -24,3 +24,5 @@
 	* implement sequential and distributed MapReduce framework
 	* handle worker failure
 	* implement 2 MapReduce task: word-count, and invert-list
+
+* Blog: [MIT’s 6.824 Distributed Systems && Project info](https://medium.com/@KaiLu/mits-6-824-distributed-systems-project-info-2c313fef1b3d#.e3oq1put0)
